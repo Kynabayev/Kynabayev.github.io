@@ -1,0 +1,12 @@
+.policy {
+padding: 70px 70px;
+}
+
+.policy_title {
+    font-size: 14px;
+}
+
+.policy__law {
+    font-size: 14px;
+    line-height: 25px;
+}

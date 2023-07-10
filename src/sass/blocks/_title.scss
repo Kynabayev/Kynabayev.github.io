@@ -1,0 +1,67 @@
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    // line-height: 60px;
+    
+    &_fz14 {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    
+    &_fz16 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    &_fz20 {
+        font-size: 20px;
+    }
+    
+    &_fz36 {
+        font-size: 36px;
+    }
+    
+    &_fz48 {
+        font-size: 48px;
+        line-height: 50px;
+        color: $main-color;
+    }
+
+    &_h2 {
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 10px;
+        width: 404px;
+        height: 74px;
+        text-align: center;
+        align-items: center;
+        color: #000;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        margin: 0 auto;
+        border: 5px solid #000;
+    }
+title {
+    width: 532px;
+    height: 129px;
+    }
+
+    &__section-title {
+        position: relative;
+        text-align: center;
+        @include before_circle;
+        &:before {
+            top: -6px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__section-subtitle {
+        text-align: center;
+    }
+
+    
+      
+
+}
